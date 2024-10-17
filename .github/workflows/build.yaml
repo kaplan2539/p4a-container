@@ -14,5 +14,5 @@ jobs:
         name: Build and push
         uses: docker/build-push-action@v6
         with:
-          push: false
-          tags: p4a:latest
+          push: true
+          tags: kaplan2539/p4a:latest

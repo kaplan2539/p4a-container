@@ -50,7 +50,7 @@ RUN python3 -m pip install \
 ENV ANDROID_HOME="/opt/android" \
     ANDROIDSDK="/opt/android/android-sdk" \
     ANDROIDNDK="/opt/android/android-ndk"\
-    ANDROIDAPI="30" \
+    ANDROIDAPI="27" \
     NDKAPI="21" \ 
     JAVA_HOME="/usr/lib/jvm/java-17-openjdk-amd64"
 
